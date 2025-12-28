@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+    body {
+        background-color: #84E1AD;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        color: white;
+        background-color: #1A5C38;
+        padding: 10px;
+
+    }
+
+    #h1titulo {
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+    h1,h2 {
+        color: #1A5C38;
+        font-family: android, Arial, Helvetica, sans-serif;
+    }
+    
+    .h2-bg {
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   }
+
+    header > h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    header > p {
+        text-align: center;
+    }
+
+    header > nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+   nav > a:hover {
+        text-decoration: underline;
+        color: black;
+   }
+
+   nav > a:active {
+        color: yellow;
+   }
+
+   main {
+    background-color: white;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+   }
+
+   main > section > p {
+    text-align: justify;
+    text-indent: 30px;
+   }
+
+   main > section > article> p {
+    text-indent: 30px;
+   }
+
+    main > section > article > aside {
+    text-indent: 30px;
+   }
+
+ 
+
+   footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+   }
+
+   .footer-meu {
+    text-align: left;
+    list-style: none;
+   }
+
+   .footer-meu > a{
+    color: white;
+    line-height: 1.5;
+   }
+
+   picture > img {
+    width: 100%;
+   }
+
+
+
+   #centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #videocentro {
+    background-color: #1A5C38;
+    padding: 20px;
+   }
+
+   #sec {
+    background-color: white;
+    padding: 10px;
+   }
+
+   .lista {
+    columns: 2;
+    padding: 0px;
+    list-style: none;
+   }
+
+   .lista li::before {
+    content: "\2705";
+    margin-right: 10px;
+   }
+
+   #arti {
+    background-color: #C5EBD6;
+    padding: 5px;
+   }
+
+   .corverde {
+    color: #2FA866;
+    font-weight: 900;
+   }
+
+   @font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+   }
+
+   a {
+    text-decoration: none;
+   }
+
+   a.externo::after {
+    content: " 🔗";
+}
